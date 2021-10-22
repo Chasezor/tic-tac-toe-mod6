@@ -1,0 +1,36 @@
+
+**THE PLAN**
+goal of this is to check to see if the game is working
+make sure that player can place on every location
+click on each of the movement options and see what happens 
+click on the same players spots and see what happens 
+win a game and see what happens
+tie a game and see what happens 
+lose a game and see what happens 
+
+**Results***
+When you win a game,
+the game message is that you lose, 
+this should clearly be a win
+
+you can click on the other players spots 
+and switch them to your own 
+
+when you block the Path of the AI it bugs
+out and place little o not Big O
+Then the AI bugs out and stops playing 
+
+Because of the bugg with the little o you 
+can never get a tie removing the code fixes 
+the issue leading to win
+
+AI plays the same position every time 
+got to move the AI start to a different location
+
+Because it's the same pattern you can wins an easy win
+the game needs to add better AI
+
+also the order of players should switch off
+
+
+**Link working Copy**
