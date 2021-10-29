@@ -16,6 +16,7 @@ test('I can start a game', async () => {
 
     let button = await driver.findElement(By.id('start-game'));
     await button.click();
+
     
 });
 
@@ -23,6 +24,8 @@ test('Click game board', async () => {
 
     let button = await driver.findElement(By.id('cell-4'));
     await button.click();
+   expect(button.click()).toBeTruthy();
+
     
 });
 
@@ -30,6 +33,8 @@ test('Check top left', async () => {
 
     let button = await driver.findElement(By.id('cell-0'));
     await button.click();
+    expect(button.click()).toBeTruthy();
+    
     
 });
 
@@ -37,6 +42,8 @@ test('Check bottom left', async () => {
 
     let button = await driver.findElement(By.id('cell-6'));
     await button.click();
+    expect(button.click()).toBeTruthy();
+   
     
 });
 
@@ -44,6 +51,7 @@ test('Check top right', async () => {
 
     let button = await driver.findElement(By.id('cell-2'));
     await button.click();
+    expect(button.click()).toBeTruthy();
     
 });
 
@@ -51,6 +59,8 @@ test('Click bottom right', async () => {
 
     let button = await driver.findElement(By.id('cell-8'));
     await button.click();
+    expect(button.click()).toBeTruthy();
+    
     
 });
 
@@ -58,9 +68,13 @@ test('Win a game', async () => {
 
     let button = await driver.findElement(By.id('cell-8'));
     await button.click();
+    expect(button.click()).toBeTruthy();
     let button2 = await driver.findElement(By.id('cell-7'));
     await button2.click();
+    expect(button.click()).toBeTruthy();
     let button3 = await driver.findElement(By.id('cell-6'));
     await button3.click();
+    expect(button.click()).toBeTruthy();
+
     
 });
